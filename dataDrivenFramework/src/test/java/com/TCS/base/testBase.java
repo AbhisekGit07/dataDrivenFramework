@@ -84,7 +84,7 @@ public class testBase {
 			 */
 			
 			else if(config.getProperty("browser").equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver", "E:\\My Workspace\\dataDrivenFramework\\src\\test\\resources\\executable\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", "C:\\Users\\rima\\git\\dataDrivenFramework\\dataDrivenFramework\\src\\test\\resources\\executable\\geckodriver.exe");
 				driver = new FirefoxDriver();
 				applog.debug("Gecko driver loaded successfuly");
 			}
@@ -94,7 +94,7 @@ public class testBase {
 			 */
 			
 			else {
-				System.setProperty("webdriver.ie.driver", "E:\\My Workspace\\dataDrivenFramework\\src\\test\\resources\\executable\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver", "C:\\Users\\rima\\git\\dataDrivenFramework\\dataDrivenFramework\\src\\test\\resources\\executable\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 				applog.debug("IE driver loaded successfuly");
 			}
