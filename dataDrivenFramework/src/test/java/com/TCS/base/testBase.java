@@ -73,7 +73,7 @@ public class testBase {
 			 */
 			
 			if(config.getProperty("browser").equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "E:\\My Workspace\\dataDrivenFramework\\src\\test\\resources\\executable\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\rima\\git\\dataDrivenFramework\\dataDrivenFramework\\src\\test\\resources\\executable\\chromedriver.exe");
 				driver = new ChromeDriver();
 				applog.debug("CHROME driver loaded successfuly");
 			}
