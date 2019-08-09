@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="dataDrivenFramework" duration-ms="2119" started-at="2019-08-09T04:03:02Z" finished-at="2019-08-09T04:03:04Z">
+  <suite name="dataDrivenFramework" duration-ms="11508" started-at="2019-08-09T05:25:29Z" finished-at="2019-08-09T05:25:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2119" started-at="2019-08-09T04:03:02Z" finished-at="2019-08-09T04:03:04Z">
+    <test name="Test" duration-ms="11508" started-at="2019-08-09T05:25:29Z" finished-at="2019-08-09T05:25:41Z">
       <class name="com.TCS.testCase.searchInGoogle">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.searchInGoogle@47ef968d]" name="setUp" is-config="true" duration-ms="56412" started-at="2019-08-09T09:32:05Z" finished-at="2019-08-09T09:33:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.searchInGoogle@3dd4520b]" name="setUp" is-config="true" duration-ms="8166" started-at="2019-08-09T10:55:21Z" finished-at="2019-08-09T10:55:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchGoogle()[pri:0, instance:com.TCS.testCase.searchInGoogle@47ef968d]" name="searchGoogle" duration-ms="2018" started-at="2019-08-09T09:33:02Z" finished-at="2019-08-09T09:33:04Z">
+        <test-method status="PASS" signature="searchGoogle()[pri:0, instance:com.TCS.testCase.searchInGoogle@3dd4520b]" name="searchGoogle" duration-ms="11477" started-at="2019-08-09T10:55:29Z" finished-at="2019-08-09T10:55:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGoogle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TCS.testCase.searchInGoogle@47ef968d]" name="tearDown" is-config="true" duration-ms="3304" started-at="2019-08-09T09:33:04Z" finished-at="2019-08-09T09:33:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TCS.testCase.searchInGoogle@3dd4520b]" name="tearDown" is-config="true" duration-ms="1813" started-at="2019-08-09T10:55:41Z" finished-at="2019-08-09T10:55:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

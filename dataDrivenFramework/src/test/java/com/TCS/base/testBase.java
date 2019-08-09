@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -103,8 +104,25 @@ public class testBase {
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitely.wait")), TimeUnit.SECONDS);
 			
 		}
-		
 	}
+		
+public boolean isDisplay(By by) {
+	try {   
+	driver.findElement(by);
+	return true;
+	}catch(Exception e){
+		return false;
+	}
+}
+
+public void hardWait(int a) {
+	try {
+		Thread.sleep(1000*a);
+	}catch(Exception e) {
+		e.printStackTrace();
+	}
+}
+		
 	
 	@AfterSuite
 	public void tearDown() {
