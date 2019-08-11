@@ -9,7 +9,7 @@ public class rough {
 		
 		Properties config= new Properties();
 		
-			FileInputStream fis= new FileInputStream("E:\\My Workspace\\dataDrivenFramework\\src\\test\\resources\\properties\\config.properties");
+			FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\config.properties");
 		
 				System.out.println(System.getProperty("user.dir"));
 		
