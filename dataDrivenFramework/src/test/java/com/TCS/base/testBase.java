@@ -124,11 +124,11 @@ public void hardWait(int a) {
 }
 		
 	
-	@AfterSuite
-	public void tearDown() {
+	/*@AfterSuite
+	/*public void tearDown() {
 		if(driver!=null) {
 			driver.quit();
-		}
+		}*/
 	}
-}
+
 	
