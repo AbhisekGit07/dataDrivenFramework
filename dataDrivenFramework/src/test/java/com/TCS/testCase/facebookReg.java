@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import com.TCS.base.*;
 
-
+import org.openqa.selenium.support.ui.*;
 public class facebookReg extends testBase{
 	
 	@Test
@@ -22,12 +22,19 @@ public class facebookReg extends testBase{
 		driver.findElement(By.xpath(OR.getProperty("password"))).sendKeys("9051@biltu");
 		hardWait(2);
 		applog.debug("password provided");
+		
+		Select yr = new Select(driver.findElement(By.xpath("year")));
+			
+			yr.selectByVisibleText("1991");
+			
+			
 		driver.findElement(By.xpath(OR.getProperty("Sex"))).click();
 		hardWait(1);
 		applog.debug("gender selection completed");
 		driver.findElement(By.xpath(OR.getProperty("Submit"))).click();
 		hardWait(1);
 		applog.debug(" Submitted ");
+		//hardWait(2);
 		//driver.switchTo().alert().dismiss();
 	}
 
