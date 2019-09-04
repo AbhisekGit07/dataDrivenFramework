@@ -2,16 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12758" started-at="2019-08-18T17:36:26Z" finished-at="2019-08-18T17:36:39Z">
+  <suite name="Default suite" duration-ms="16387" started-at="2019-09-04T05:33:35Z" finished-at="2019-09-04T05:33:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12758" started-at="2019-08-18T17:36:26Z" finished-at="2019-08-18T17:36:39Z">
+    <test name="Default test" duration-ms="16387" started-at="2019-09-04T05:33:35Z" finished-at="2019-09-04T05:33:52Z">
       <class name="com.TCS.testCase.facebookReg">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.facebookReg@23e028a9]" name="setUp" is-config="true" duration-ms="21273" started-at="2019-08-18T23:06:05Z" finished-at="2019-08-18T23:06:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.facebookReg@385e9564]" name="setUp" is-config="true" duration-ms="113925" started-at="2019-09-04T11:01:41Z" finished-at="2019-09-04T11:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fbReg()[pri:0, instance:com.TCS.testCase.facebookReg@23e028a9]" name="fbReg" duration-ms="12376" started-at="2019-08-18T23:06:26Z" finished-at="2019-08-18T23:06:39Z">
+        <test-method status="PASS" signature="fbReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TCS.testCase.facebookReg@385e9564]" name="fbReg" duration-ms="15934" started-at="2019-09-04T11:03:36Z" data-provider="getData" finished-at="2019-09-04T11:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Biltu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghosh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.051777503E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9051@biltu]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbReg -->

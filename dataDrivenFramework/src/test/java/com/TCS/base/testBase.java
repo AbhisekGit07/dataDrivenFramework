@@ -12,8 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterSuite;
 //import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
+import com.TCS.utilities.ExcelReader;
 
 public class testBase {
 
@@ -31,7 +34,7 @@ public class testBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger applog= Logger.getLogger("devpinoyLogger");
-	
+	public static ExcelReader excel= new ExcelReader("C:\\Users\\rima\\git\\dataDrivenFramework\\dataDrivenFramework\\src\\test\\resources\\excel\\testDataa.xlsx");
 	
 	
 	@BeforeSuite
@@ -124,11 +127,13 @@ public void hardWait(int a) {
 }
 		
 	
-	/*@AfterSuite
-	/*public void tearDown() {
+	@AfterSuite
+	public void tearDown() {
 		if(driver!=null) {
 			driver.quit();
-		}*/
+		}
+		
 	}
+}
 
 	
