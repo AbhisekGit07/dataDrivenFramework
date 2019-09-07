@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [dataDrivenFramework]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.TCS.testCase.facebookReg">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="fbReg" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.TCS.testCase.facebookReg -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [dataDrivenFramework] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

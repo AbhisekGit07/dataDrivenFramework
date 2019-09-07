@@ -6,6 +6,7 @@
       <class name="com.TCS.testCase.facebookReg">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="fbReg" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.TCS.testCase.facebookReg -->

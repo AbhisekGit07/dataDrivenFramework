@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16387" started-at="2019-09-04T05:33:35Z" finished-at="2019-09-04T05:33:52Z">
+  <suite name="Default suite" duration-ms="18374" started-at="2019-09-07T20:06:00Z" finished-at="2019-09-07T20:06:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16387" started-at="2019-09-04T05:33:35Z" finished-at="2019-09-04T05:33:52Z">
+    <test name="Default test" duration-ms="18374" started-at="2019-09-07T20:06:00Z" finished-at="2019-09-07T20:06:18Z">
       <class name="com.TCS.testCase.facebookReg">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.facebookReg@385e9564]" name="setUp" is-config="true" duration-ms="113925" started-at="2019-09-04T11:01:41Z" finished-at="2019-09-04T11:03:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.facebookReg@5b94b04d]" name="setUp" is-config="true" duration-ms="57324" started-at="2019-09-08T01:35:02Z" finished-at="2019-09-08T01:36:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fbReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TCS.testCase.facebookReg@385e9564]" name="fbReg" duration-ms="15934" started-at="2019-09-04T11:03:36Z" data-provider="getData" finished-at="2019-09-04T11:03:52Z">
+        <test-method status="PASS" signature="fbReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TCS.testCase.facebookReg@5b94b04d]" name="fbReg" duration-ms="16518" started-at="2019-09-08T01:36:01Z" data-provider="getData" finished-at="2019-09-08T01:36:18Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[9.051777503E9]]>
+                <![CDATA[9051777503]]>
               </value>
             </param>
             <param index="3">
@@ -37,6 +37,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbReg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TCS.testCase.facebookReg@5b94b04d]" name="tearDown" is-config="true" duration-ms="3224" started-at="2019-09-08T01:36:19Z" finished-at="2019-09-08T01:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.TCS.testCase.facebookReg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

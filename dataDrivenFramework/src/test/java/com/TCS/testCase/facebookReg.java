@@ -1,4 +1,6 @@
 package com.TCS.testCase;
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -23,20 +25,28 @@ public class facebookReg extends testBase{
 		hardWait(2);
 		applog.debug("password provided");
 		
-		Select yr = new Select(driver.findElement(By.xpath(OR.getProperty("year"))));
+		//Select yr = new Select(driver.findElement(By.xpath(OR.getProperty("year"))));
 			
-			yr.selectByVisibleText("1991");
+		//	yr.selectByVisibleText("1991");
 			
 			
 		driver.findElement(By.xpath(OR.getProperty("Sex"))).click();
 		hardWait(1);
 		applog.debug("gender selection completed");
 	
-		//driver.findElement(By.xpath(OR.getProperty("Submit"))).click();
-		//hardWait(1);
-		//applog.debug(" Submitted ");
-		//hardWait(2);
+		driver.findElement(By.xpath(OR.getProperty("Submit"))).click();
+		hardWait(1);
+		applog.debug(" Submitted ");
+		hardWait(2);
 		//driver.switchTo().alert().dismiss();
+		String parentWindow= driver.getWindowHandle();
+		Set<String> childWindows= driver.getWindowHandles();
+		for(String handle:childWindows)
+		{
+			driver.switchTo().window(handle);
+			driver.findElement(By.xpath(OR.getProperty("okbtn"))).click();
+		}
+		driver.switchTo().window(parentWindow);
 	}
 		@DataProvider
 		public Object[][] getData(){
