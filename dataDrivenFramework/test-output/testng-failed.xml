@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TCS.testCase.facebookReg">
+      <class name="com.TCS.testCase.amazonSelect">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="fbReg" invocation-numbers="0"/>
+          <include name="amazonSelect"/>
         </methods>
-      </class> <!-- com.TCS.testCase.facebookReg -->
+      </class> <!-- com.TCS.testCase.amazonSelect -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
