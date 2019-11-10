@@ -127,13 +127,13 @@ public void hardWait(int a) {
 }
 		
 	
-	@AfterSuite
+	/*@AfterSuite
 	public void tearDown() {
 		if(driver!=null) {
 			driver.quit();
 		}
 		
-	}
+	}*/
 }
 
 	

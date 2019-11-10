@@ -2,23 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35790" started-at="2019-11-01T05:37:47Z" finished-at="2019-11-01T05:38:23Z">
+  <suite name="Default suite" duration-ms="44461" started-at="2019-11-02T06:05:43Z" finished-at="2019-11-02T06:06:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35790" started-at="2019-11-01T05:37:47Z" finished-at="2019-11-01T05:38:23Z">
+    <test name="Default test" duration-ms="44461" started-at="2019-11-02T06:05:43Z" finished-at="2019-11-02T06:06:27Z">
       <class name="com.TCS.testCase.amazonSelect">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.amazonSelect@291caca8]" name="setUp" is-config="true" duration-ms="42752" started-at="2019-11-01T11:07:05Z" finished-at="2019-11-01T11:07:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TCS.testCase.amazonSelect@4c39bec8]" name="setUp" is-config="true" duration-ms="34869" started-at="2019-11-02T11:35:08Z" finished-at="2019-11-02T11:35:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="amazonSelect()[pri:0, instance:com.TCS.testCase.amazonSelect@291caca8]" name="amazonSelect" duration-ms="35587" started-at="2019-11-01T11:07:48Z" finished-at="2019-11-01T11:08:23Z">
+        <test-method status="PASS" signature="amazonSelected(java.lang.String)[pri:0, instance:com.TCS.testCase.amazonSelect@4c39bec8]" name="amazonSelected" duration-ms="43995" started-at="2019-11-02T11:35:43Z" data-provider="getData" finished-at="2019-11-02T11:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Watches]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonSelect -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TCS.testCase.amazonSelect@291caca8]" name="tearDown" is-config="true" duration-ms="6488" started-at="2019-11-01T11:08:25Z" finished-at="2019-11-01T11:08:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- amazonSelected -->
       </class> <!-- com.TCS.testCase.amazonSelect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
